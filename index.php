@@ -81,12 +81,6 @@ if ($error == '') {
             'country' => $country);
         fputcsv($file_open,$form_data);
         $error = '<label class="text-success">Data Stored</label>';
-    
-        $name = '';
-        $email = '';
-        $dob = '';
-        $gender = '';
-        $country = '';
     }
 
 }
